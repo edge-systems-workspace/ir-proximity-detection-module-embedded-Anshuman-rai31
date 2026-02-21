@@ -1,11 +1,11 @@
 #include<Arduino.h>
 #define irPin 2
-/*void setup()
+void setup()
 {
     pinMode(irPin,INPUT);
 }
 
-void loop()
+/*void loop()
 {
     int irvalue = digitalRead(irPin);
     if(irvalue == HIGH)
