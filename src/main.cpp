@@ -5,7 +5,7 @@ void setup()
     pinMode(irPin,INPUT);
 }
 
-/*void loop()
+void loop()
 {
     int irvalue = digitalRead(irPin);
     if(irvalue == HIGH)
@@ -17,4 +17,4 @@ void setup()
     }
     delay(500);
 
-}*/
+}
